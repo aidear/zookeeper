@@ -22,6 +22,9 @@ func server(port *int) {
 	if err != nil {
 		panic(err)
 	}
+
+	initServerNode(c)
+
 	if err := RegistServer(c, port); err != nil {
 		panic(err)
 	}
