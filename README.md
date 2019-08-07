@@ -1,5 +1,5 @@
 
-## 基于Zookeeper + Golang监控管理在线服务集群
+## 基于Zookeeper + Golang监控在线可用集群服务
 
 #### 启动监控脚本
 $ ./zk -m
